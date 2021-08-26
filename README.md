@@ -27,8 +27,4 @@ Start the app:
 $ java -jar target/springboot-resilience4j-demo.jar
 ```
 
-The home page shows you how to use demo endpoints.
-Please refer to the [source code](https://reflectoring.io/retry-with-springboot-resilience4j/)
-to learn what these endpoints do.
-
 ## Refer - https://reflectoring.io/retry-with-springboot-resilience4j/
