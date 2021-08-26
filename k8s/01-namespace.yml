@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: spring-resilience4j-demo
+  name: springboot-resilience4j-demo
