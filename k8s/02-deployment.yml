@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app
-  namespace: spring-resilience4j-demo
+  namespace: springboot-resilience4j-demo
 spec:
   replicas: 1
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: vsaxena/spring-resilience4j-demo
+          image: vbondoo7/springboot-resilience4j-demo
           imagePullPolicy: Always
           resources:
             limits:
